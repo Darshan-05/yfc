@@ -1,6 +1,6 @@
 (function () {
       var words = [
-            'CHANGE', 'CREATOR', 'FUTURE','SPARK'
+            'CHANGE', 'CREATOR', 'FUTURE'
       ], i = 0;
       setInterval(function () {
             $('#changingword').fadeOut(function () {
