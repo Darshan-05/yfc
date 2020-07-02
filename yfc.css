@@ -25,5 +25,10 @@
       transform: translate(-50%, -50%);
       font-family: 'Open Sans', sans-serif;
       font-weight: bolder;
-      font-size: 80px;
+      font-size: 5.2vw;
+}
+.toggle{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 4.2vw;
+      font-weight: 200;
 }
