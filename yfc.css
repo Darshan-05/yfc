@@ -1,0 +1,29 @@
+.nav{
+      font-size: 25px;
+      height: 30px;
+      font-family: 'Open Sans', sans-serif;
+}
+
+.nav a{
+      color: black;
+      padding: 10px 50px 10px 50px;
+      margin: 10px 10px 10px 10px;
+      text-decoration: none;
+      transition: transform 0.2s;
+                 
+}
+.nav a:hover{
+            background-color:lavender;
+            color: grey; 
+            transform: scale(1.1);
+
+}
+.text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bolder;
+      font-size: 80px;
+}
