@@ -10,12 +10,12 @@
       margin: 10px 10px 10px 10px;
       text-decoration: none;
       transition: transform 0.2s;
-      
-                 
+
+
 }
 .nav a:hover{
             background-color:lavender;
-            color: grey; 
+            color: grey;
             transform: scale(1.1);
 
 }
