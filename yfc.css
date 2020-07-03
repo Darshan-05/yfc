@@ -10,6 +10,7 @@
       margin: 10px 10px 10px 10px;
       text-decoration: none;
       transition: transform 0.2s;
+      
                  
 }
 .nav a:hover{
@@ -31,4 +32,7 @@
       font-family: 'Open Sans', sans-serif;
       font-size: 4.2vw;
       font-weight: 200;
+}
+html{
+      scroll-behavior: smooth;
 }
