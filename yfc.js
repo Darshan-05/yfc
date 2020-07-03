@@ -7,5 +7,4 @@
                   $(this).html(words[i = (i + 1) % words.length]).fadeIn();
             });
       }, 1000);
-
 })();
