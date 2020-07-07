@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 .nav{
       font-size: 25px;
       height: 30px;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Itim', cursive;
 }
 
 .nav a{
@@ -12,25 +13,84 @@
       transition: transform 0.2s;
 }
 .nav a:hover{
-            background-color:lavender;
-            color: grey;
-            transform: scale(1.1);
-
+      color: #0F52BA;
 }
 .text{
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Itim', cursive;
       font-weight: bolder;
       font-size: 5.2vw;
 }
+
 .toggle{
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Itim', cursive;
       font-size: 4.2vw;
       font-weight: 200;
+      text-decoration: none;
+      text-transform: none;
 }
 html{
       scroll-behavior: smooth;
+}
+h1{
+      font-family: 'Itim', cursive;
+      text-align: center; 
+      font-weight: 300;
+}
+h3{
+      font-family: 'Itim', cursive;
+      text-align: center; 
+      font-weight: 400;
+      font-size: 30px;
+      position: relative;
+      bottom: 25px;
+
+}
+#changingword{
+      color: black;
+      font-family: 'Itim', cursive
+      
+}
+
+.items{
+      width: 800px;
+      text-align: center;
+}
+.items a{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  font-size: 3.4vw;
+  font-weight:400;
+  width: 100%;
+  padding-top: -0.1vw;
+  height: 3.6vw;
+  overflow: hidden;
+}
+.items a span{
+  display: inline-block;
+  position:relative;
+  right: 8.6vw;
+  transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  -moz-transition: transform 500ms;
+  
+}
+.items a span:after{
+  content: attr(data-hover);
+  position: absolute;
+  top: -4vw;
+  left:0;
+  transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+}
+.items a:hover span,
+.items a:focus span {
+	transform: translateY(3.4vw);
+  -webkit-transform: translateY(3.4vw);
+  -moz-transform: translateY(3.4vw);
 }
