@@ -17,7 +17,7 @@
 }
 .text{
       position: absolute;
-      top: 50%;
+      top: 43%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-family: 'Itim', cursive;
@@ -51,7 +51,9 @@ h3{
 }
 #changingword{
       color: black;
-      font-family: 'Itim', cursive
+      font-family: 'Itim', cursive;
+      position: relative;
+      right: 4%;
       
 }
 
@@ -93,4 +95,17 @@ h3{
 	transform: translateY(3.4vw);
   -webkit-transform: translateY(3.4vw);
   -moz-transform: translateY(3.4vw);
+}
+footer{
+      background-color: #0F52BA;
+      height: 7vw;
+      font-family: 'Itim', cursive;
+      color: aliceblue;
+      text-align: center;
+}
+.f1{
+      text-align: center;
+      position: relative;
+      font-size: 3vw;
+      top: 0.5vw;
 }
