@@ -1,28 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 .nav{
-      font-size: 25px;
+      font-size: 2vmax;
       height: 30px;
       font-family: 'Itim', cursive;
+      margin-bottom: 1vmax;
 }
 
 .nav a{
       color: black;
-      padding: 10px 50px 10px 50px;
-      margin: 10px 10px 10px 10px;
+      padding: 2vmax 2vmax 0 2vmax;
+      margin: 10px 10px 0 10px;
       text-decoration: none;
       transition: transform 0.2s;
 }
 .nav a:hover{
       color: #0F52BA;
 }
+.bg {
+  background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("media/g1.jpg");
+  width: 100%;
+  height: 35vmax;
+  position:relative;
+  bottom: 3vmax;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .text{
-      position: absolute;
-      top: 43%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       font-family: 'Itim', cursive;
       font-weight: bolder;
-      font-size: 5.2vw;
+      font-size: 15vh;
+      opacity: 1;
+      text-align: center;
 }
 
 .toggle{
@@ -39,14 +49,14 @@ h1{
       font-family: 'Itim', cursive;
       text-align: center; 
       font-weight: 300;
+      font-size: 2.5vmax;
+
 }
 h3{
       font-family: 'Itim', cursive;
       text-align: center; 
       font-weight: 400;
-      font-size: 30px;
-      position: relative;
-      bottom: 25px;
+      font-size: 2vmax;
 
 }
 #changingword{
@@ -54,28 +64,31 @@ h3{
       font-family: 'Itim', cursive;
       position: relative;
       right: 4%;
+      top: 2vmax;
       
 }
 
 .items{
-      width: 800px;
+      width: 50vw ;
+      text-align: center;
+      position: relative;
       text-align: center;
 }
 .items a{
   display:inline-block;
   text-decoration:none;
   color:white;
-  font-size: 3.4vw;
+  font-size: 3.4vmax;
   font-weight:400;
   width: 100%;
-  padding-top: -0.1vw;
-  height: 3.6vw;
+  padding-top: -0.1vmax;
+  height: 3.6vmax;
   overflow: hidden;
 }
 .items a span{
   display: inline-block;
-  position:relative;
-  right: 8.6vw;
+  position: relative;
+  right: 0.5vmax;
   transition: transform 500ms;
   -webkit-transition: -webkit-transform 500ms;
   -moz-transition: transform 500ms;
@@ -84,8 +97,8 @@ h3{
 .items a span:after{
   content: attr(data-hover);
   position: absolute;
-  top: -4vw;
-  left:0;
+  top: -4vmax;
+  left: -9vmax;
   transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	-webkit-transform: translate3d(0,0,0);
@@ -98,14 +111,26 @@ h3{
 }
 footer{
       background-color: #0F52BA;
-      height: 7vw;
+      height: 8vmax;
+      width: 100%;
       font-family: 'Itim', cursive;
       color: aliceblue;
       text-align: center;
-}
-.f1{
-      text-align: center;
+      margin:0 0 0 0;
       position: relative;
-      font-size: 3vw;
-      top: 0.5vw;
+      top: 2.5vmax;
+}
+#f1{
+      width: 3vmax;
+      height: 3vmax;
+      float: right;
+      padding: 0 2vmax 0vmax 0vmax;
+      position: relative;
+      bottom: 5.3vmax;
+}
+.v2, #v:hover .v1{
+      display: none;
+}
+.v1, #v:hover .v2{
+      display: block;
 }
