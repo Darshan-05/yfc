@@ -30,7 +30,7 @@
 .text{
       font-family: 'Itim', cursive;
       font-weight: bolder;
-      font-size: 15vh;
+      font-size: 7vw;
       opacity: 1;
       text-align: center;
 }
@@ -63,13 +63,13 @@ h3{
       color: black;
       font-family: 'Itim', cursive;
       position: relative;
-      right: 4%;
+      right: 4vw;
       top: 2vmax;
       
 }
 
 .items{
-      width: 50vw ;
+      width: 52vw ;
       text-align: center;
       position: relative;
       text-align: center;
@@ -78,11 +78,11 @@ h3{
   display:inline-block;
   text-decoration:none;
   color:white;
-  font-size: 3.4vmax;
+  font-size: 3.2vmax;
   font-weight:400;
   width: 100%;
-  padding-top: -0.1vmax;
-  height: 3.6vmax;
+  padding-top: -0.3vmax;
+  height: 4.4vmax;
   overflow: hidden;
 }
 .items a span{
@@ -97,7 +97,7 @@ h3{
 .items a span:after{
   content: attr(data-hover);
   position: absolute;
-  top: -4vmax;
+  top: -3.8vmax;
   left: -9vmax;
   transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
@@ -105,9 +105,9 @@ h3{
 }
 .items a:hover span,
 .items a:focus span {
-	transform: translateY(3.4vw);
-  -webkit-transform: translateY(3.4vw);
-  -moz-transform: translateY(3.4vw);
+	transform: translateY(3.45vw);
+  -webkit-transform: translateY(3.45vw);
+  -moz-transform: translateY(3.45vw);
 }
 footer{
       background-color: #0F52BA;
