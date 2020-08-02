@@ -1,67 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;700;900&display=swap');
+html,body,footer{
+      font-family: 'Recursive', sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
 
-.nav{
-      font-size: 2vmax;
-      height: 30px;
-      font-family: 'Itim', cursive;
-      margin-bottom: 1vmax;
 }
-
-.nav a{
-      color: black;
-      padding: 2vmax 2vmax 0 2vmax;
-      margin: 10px 10px 0 10px;
-      text-decoration: none;
-      transition: transform 0.2s;
-}
-.nav a:hover{
-      color: #0F52BA;
-}
-.bg {
-  background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("media/g1.jpg");
-  width: 100%;
-  height: 35vmax;
-  position:relative;
-  bottom: 3vmax;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.text{
-      font-family: 'Itim', cursive;
-      font-weight: bolder;
-      font-size: 7vw;
-      opacity: 1;
+h1,h2,h3{
+      font-family: 'Recursive', sans-serif;
       text-align: center;
+      font-weight: 200;
 }
+h1{
+      font-size: 3vmax;
+}
+h2{
+      font-size: 2vmax;
+}
+header{
+      background-image: url(media/g1.jpg);
+      background-size: 100% 100%;
+      width: 100%;
+      height: calc(80% + 9.2vw )
+}
+#head ul { 
+  margin: 0px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: auto;
+  float: right;
+  font-size: 2vmax;
+}
+#head li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 2vw 0;
+}
+#head a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.15vmax;
+  display: inline-block;
+  padding: 2vmax 2vmax;
+  position: relative;
+}
+#head a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.2vmax;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.6s ease 0s, left 0.4s ease 0s;
+  width: 0;
+}
+#head a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 30vmax) {
+	#head ul {
+		margin-top: 5vmax;
+	}
+}
+/* n */
 
 .toggle{
-      font-family: 'Itim', cursive;
       font-size: 4.2vw;
       font-weight: 200;
       text-decoration: none;
       text-transform: none;
 }
-html{
-      scroll-behavior: smooth;
-}
-h1{
-      font-family: 'Itim', cursive;
-      text-align: center; 
-      font-weight: 300;
-      font-size: 2.5vmax;
 
-}
-h3{
-      font-family: 'Itim', cursive;
-      text-align: center; 
-      font-weight: 400;
-      font-size: 2vmax;
-
-}
 #changingword{
       color: black;
-      font-family: 'Itim', cursive;
       position: relative;
       right: 4vw;
       top: 2vmax;
@@ -73,16 +87,19 @@ h3{
       text-align: center;
       position: relative;
       text-align: center;
+      top: 35vw;
+      left: 22.4vmax;
 }
+
 .items a{
-  display:inline-block;
+  display: inline-block;
   text-decoration:none;
-  color:white;
+  color:black;
   font-size: 3.2vmax;
   font-weight:400;
   width: 100%;
-  padding-top: -0.3vmax;
-  height: 4.4vmax;
+  padding-top: -0.6vmax;
+  height: 4vmax;
   overflow: hidden;
 }
 .items a span{
@@ -97,24 +114,23 @@ h3{
 .items a span:after{
   content: attr(data-hover);
   position: absolute;
-  top: -3.8vmax;
-  left: -9vmax;
+  top: -5.9vmax;
+  left: -10vmax;
   transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	-webkit-transform: translate3d(0,0,0);
 }
 .items a:hover span,
 .items a:focus span {
-	transform: translateY(3.45vw);
-  -webkit-transform: translateY(3.45vw);
-  -moz-transform: translateY(3.45vw);
+	transform: translateY(6.5vw);
+  -webkit-transform: translateY(6.5vw);
+  -moz-transform: translateY(6.5vw);
 }
 footer{
       background-color: #0F52BA;
       height: 8vmax;
       width: 100%;
-      font-family: 'Itim', cursive;
-      color: aliceblue;
+      color: white;
       text-align: center;
       margin:0 0 0 0;
       position: relative;
