@@ -29,11 +29,13 @@ body {
     letter-spacing: 2vmax;
 }
 
+
 .items {
     text-align: center;
     color: aliceblue;
     position: relative;
-    top: 300px;
+    top: 400px;
+    
 }
 
 .items a {
@@ -78,8 +80,11 @@ body {
 
     .items a:hover span,
     .items a:focus span {
-        transform: translateY(5.5vw);
-        -webkit-transform: translateY(5.5vw);
-        -moz-transform: translateY(5.5vw);
+        transform: translateY(5.9vw);
+        -webkit-transform: translateY(5.9vw);
+        -moz-transform: translateY(5.9vw);
+    }
+    .bg{
+        height: 90%;
     }
 }
