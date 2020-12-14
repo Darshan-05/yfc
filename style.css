@@ -76,13 +76,13 @@ body {
     -moz-transform: translateY(4.7vw);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
     .items a:hover span,
     .items a:focus span {
-        transform: translateY(6vw);
-        -webkit-transform: translateY(6vw);
-        -moz-transform: translateY(6vw);
+        transform: translateY(6.2vw);
+        -webkit-transform: translateY(6.2vw);
+        -moz-transform: translateY(6.2vw);
     }
     .bg{
         height: 90%;
