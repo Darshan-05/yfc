@@ -80,9 +80,9 @@ body {
 
     .items a:hover span,
     .items a:focus span {
-        transform: translateY(5.9vw);
-        -webkit-transform: translateY(5.9vw);
-        -moz-transform: translateY(5.9vw);
+        transform: translateY(6vw);
+        -webkit-transform: translateY(6vw);
+        -moz-transform: translateY(6vw);
     }
     .bg{
         height: 90%;
