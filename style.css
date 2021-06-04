@@ -34,8 +34,8 @@ body {
     text-align: center;
     color: aliceblue;
     position: relative;
-    top:400px;
-    
+    top: 400px;
+
 }
 
 .items a {
@@ -76,7 +76,13 @@ body {
     -moz-transform: translateY(4.7vw);
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 500px) {
+    .bg{
+        height: 50%;
+    }
+    .items{
+        top: 200px;
+    }
 
     .items a:hover span,
     .items a:focus span {
